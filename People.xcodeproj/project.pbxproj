@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		6337F02A25221ECF00AA31E3 /* PeopleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6337F02925221ECF00AA31E3 /* PeopleApp.swift */; };
-		6337F02C25221ECF00AA31E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6337F02B25221ECF00AA31E3 /* ContentView.swift */; };
+		6337F02C25221ECF00AA31E3 /* PeopleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6337F02B25221ECF00AA31E3 /* PeopleListView.swift */; };
 		6337F02E25221ED000AA31E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6337F02D25221ED000AA31E3 /* Assets.xcassets */; };
 		6337F03125221ED000AA31E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6337F03025221ED000AA31E3 /* Preview Assets.xcassets */; };
 		6337F03C25221ED000AA31E3 /* PeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6337F03B25221ED000AA31E3 /* PeopleTests.swift */; };
 		6337F04725221ED000AA31E3 /* PeopleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6337F04625221ED000AA31E3 /* PeopleUITests.swift */; };
+		6337F0582522299000AA31E3 /* PeopleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6337F0572522299000AA31E3 /* PeopleRow.swift */; };
+		6337F05E252229FD00AA31E3 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6337F05D252229FD00AA31E3 /* People.swift */; };
+		6337F06725222A7000AA31E3 /* peoples.json in Resources */ = {isa = PBXBuildFile; fileRef = 6337F06625222A7000AA31E3 /* peoples.json */; };
+		6337F07125222C5300AA31E3 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6337F07025222C5300AA31E3 /* Data.swift */; };
+		6337F07F25222EEA00AA31E3 /* PeopleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6337F07E25222EEA00AA31E3 /* PeopleDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,7 @@
 /* Begin PBXFileReference section */
 		6337F02625221ECF00AA31E3 /* People.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = People.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6337F02925221ECF00AA31E3 /* PeopleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleApp.swift; sourceTree = "<group>"; };
-		6337F02B25221ECF00AA31E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6337F02B25221ECF00AA31E3 /* PeopleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListView.swift; sourceTree = "<group>"; };
 		6337F02D25221ED000AA31E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6337F03025221ED000AA31E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6337F03225221ED000AA31E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +50,11 @@
 		6337F04225221ED000AA31E3 /* PeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeopleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6337F04625221ED000AA31E3 /* PeopleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleUITests.swift; sourceTree = "<group>"; };
 		6337F04825221ED000AA31E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6337F0572522299000AA31E3 /* PeopleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRow.swift; sourceTree = "<group>"; };
+		6337F05D252229FD00AA31E3 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		6337F06625222A7000AA31E3 /* peoples.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = peoples.json; sourceTree = "<group>"; };
+		6337F07025222C5300AA31E3 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		6337F07E25222EEA00AA31E3 /* PeopleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +106,13 @@
 			isa = PBXGroup;
 			children = (
 				6337F02925221ECF00AA31E3 /* PeopleApp.swift */,
-				6337F02B25221ECF00AA31E3 /* ContentView.swift */,
+				6337F02B25221ECF00AA31E3 /* PeopleListView.swift */,
+				6337F0572522299000AA31E3 /* PeopleRow.swift */,
+				6337F07E25222EEA00AA31E3 /* PeopleDetail.swift */,
+				6337F06F25222C4000AA31E3 /* Data */,
+				6337F05C252229F400AA31E3 /* Models */,
 				6337F02D25221ED000AA31E3 /* Assets.xcassets */,
+				6337F06525222A5D00AA31E3 /* Resources */,
 				6337F03225221ED000AA31E3 /* Info.plist */,
 				6337F02F25221ED000AA31E3 /* Preview Content */,
 			);
@@ -128,6 +143,30 @@
 				6337F04825221ED000AA31E3 /* Info.plist */,
 			);
 			path = PeopleUITests;
+			sourceTree = "<group>";
+		};
+		6337F05C252229F400AA31E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6337F05D252229FD00AA31E3 /* People.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6337F06525222A5D00AA31E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6337F06625222A7000AA31E3 /* peoples.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6337F06F25222C4000AA31E3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6337F07025222C5300AA31E3 /* Data.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6337F06725222A7000AA31E3 /* peoples.json in Resources */,
 				6337F03125221ED000AA31E3 /* Preview Assets.xcassets in Resources */,
 				6337F02E25221ED000AA31E3 /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6337F02C25221ECF00AA31E3 /* ContentView.swift in Sources */,
+				6337F05E252229FD00AA31E3 /* People.swift in Sources */,
+				6337F07F25222EEA00AA31E3 /* PeopleDetail.swift in Sources */,
+				6337F07125222C5300AA31E3 /* Data.swift in Sources */,
+				6337F02C25221ECF00AA31E3 /* PeopleListView.swift in Sources */,
 				6337F02A25221ECF00AA31E3 /* PeopleApp.swift in Sources */,
+				6337F0582522299000AA31E3 /* PeopleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
