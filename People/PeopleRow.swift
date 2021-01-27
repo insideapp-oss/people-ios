@@ -23,6 +23,14 @@ struct PeopleRow: View {
 
 struct PeopleRow_Previews: PreviewProvider {
     static var previews: some View {
-        PeopleRow(people: People(id: 0, firstname: "Steve", lastname: "Rogers", role: "Captain America", about: ""))
+        PeopleRow(
+            people: People(
+                id: 0,
+                firstname: "Steve",
+                lastname: "Rogers",
+                role: "Captain America",
+                about: ""
+            )
+        )
     }
 }

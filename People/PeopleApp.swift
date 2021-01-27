@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct PeopleApp: App {
+    @StateObject var model = PeopleModel()
+
     var body: some Scene {
         WindowGroup {
-            PeopleListView()
+            PeopleListView(peoples: People.all, selectedPeopleId: nil)
+                .environmentObject(model)
         }
     }
 }
