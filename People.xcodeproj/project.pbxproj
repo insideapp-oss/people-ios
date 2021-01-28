@@ -119,6 +119,7 @@
 		6337F0A92522384500AA31E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		636A5FC325C19F9800491E37 /* PeopleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleModel.swift; sourceTree = "<group>"; };
 		636A5FEC25C1A93300491E37 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		636E210625C1D67B00A2980F /* People.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = People.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +197,7 @@
 		6337F02825221ECF00AA31E3 /* People */ = {
 			isa = PBXGroup;
 			children = (
+				636E210625C1D67B00A2980F /* People.entitlements */,
 				6337F02925221ECF00AA31E3 /* PeopleApp.swift */,
 				6337F02B25221ECF00AA31E3 /* PeopleListView.swift */,
 				6337F0572522299000AA31E3 /* PeopleRow.swift */,
@@ -733,8 +735,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = People/People.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"People/Preview Content\"";
+				DEVELOPMENT_TEAM = 9BTUBC86U7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = People/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -742,10 +748,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.insideapp.People;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.insideapp.peopleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "People Demo - Development";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -755,8 +763,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = People/People.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"People/Preview Content\"";
+				DEVELOPMENT_TEAM = 9BTUBC86U7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = People/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -764,10 +776,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.insideapp.People;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.insideapp.peopleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "People Demo - Adhoc";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -857,8 +871,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Contact/Contact.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Contact/Preview Content\"";
+				DEVELOPMENT_TEAM = 9BTUBC86U7;
 				ENABLE_PREVIEWS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -870,11 +887,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.insideapp.People.Clip;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.insideapp.peopleDemo.Contact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "People Demo - Contact Clip - Development";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG APPCLIP";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -884,8 +903,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Contact/Contact.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Contact/Preview Content\"";
+				DEVELOPMENT_TEAM = 9BTUBC86U7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Contact/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -893,11 +915,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.insideapp.People.Clip;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.insideapp.peopleDemo.Contact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "People Demo - Contact Clip - Adhoc";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPCLIP;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
