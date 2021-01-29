@@ -758,7 +758,7 @@
 				CODE_SIGN_ENTITLEMENTS = People/People.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"People/Preview Content\"";
 				DEVELOPMENT_TEAM = 9BTUBC86U7;
 				ENABLE_PREVIEWS = YES;
@@ -786,7 +786,7 @@
 				CODE_SIGN_ENTITLEMENTS = People/People.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"People/Preview Content\"";
 				DEVELOPMENT_TEAM = 9BTUBC86U7;
 				ENABLE_PREVIEWS = YES;
@@ -893,7 +893,7 @@
 				CODE_SIGN_ENTITLEMENTS = Contact/Contact.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Contact/Preview Content\"";
 				DEVELOPMENT_TEAM = 9BTUBC86U7;
 				ENABLE_PREVIEWS = YES;
@@ -925,7 +925,7 @@
 				CODE_SIGN_ENTITLEMENTS = Contact/Contact.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Contact/Preview Content\"";
 				DEVELOPMENT_TEAM = 9BTUBC86U7;
 				ENABLE_PREVIEWS = YES;
