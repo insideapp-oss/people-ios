@@ -12,7 +12,7 @@ struct PeopleDetail: View {
     @State private var showingAlert = false
 
     var body: some View {
-        List {
+        Form {
             Section {
                 Text("Role: \(people.role)")
                 Text(people.about)
@@ -28,6 +28,9 @@ struct PeopleDetail: View {
                 }
                 Link("Website", destination: URL(string: "https://www.insideapp.fr/")!)
             }
+            #if APPCLIP
+            Section(footer: Text("For the full experience, please download the People from the App Store.")) { EmptyView() }
+            #endif
         }
         .listStyle(GroupedListStyle())
         .navigationBarTitle(people.displayName)

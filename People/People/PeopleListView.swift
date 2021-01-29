@@ -15,16 +15,17 @@ struct PeopleListView: View {
 
     var body: some View {
         NavigationView {
-            List(peoples) { people in
-                NavigationLink(destination: PeopleDetail(people: people), tag: "\(people.id)", selection: $selectedPeopleId) {
-                    PeopleRow(people: people)
+            Form {
+                List(peoples) { people in
+                    NavigationLink(destination: PeopleDetail(people: people), tag: "\(people.id)", selection: $selectedPeopleId) {
+                        PeopleRow(people: people)
+                    }
+                    .onReceive(model.$selectedPeopleId, perform: { newValue in
+                        guard let peopleId = newValue else { return }
+                        selectedPeopleId = "\(peopleId)"
+                    })
                 }
-                .onReceive(model.$selectedPeopleId, perform: { newValue in
-                    guard let peopleId = newValue else { return }
-                    selectedPeopleId = "\(peopleId)"
-                })
             }
-            .listStyle(GroupedListStyle())
             .navigationBarTitle("Meet inside|app")
         }
     }

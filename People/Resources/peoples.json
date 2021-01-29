@@ -3,46 +3,46 @@
         "id": 0,
         "firstname": "Vincent",
         "lastname": "Frattaroli",
-        "role": "CEO",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non eros sed mi laoreet tristique nec eget nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi in ante finibus, pellentesque lacus vitae, facilisis mi. Etiam urna eros, commodo vitae augue id, posuere scelerisque mauris. Vivamus mattis imperdiet tincidunt. Vivamus fermentum mauris vel ipsum porta bibendum. Aenean sed malesuada justo. Vestibulum ante nunc, suscipit id consectetur vel, interdum et turpis. Praesent id varius risus, at euismod massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eget condimentum enim. Nunc ac lacus sit amet dolor auctor viverra eu vel tellus. Suspendisse fringilla a ipsum sed faucibus. Nam auctor lacus quis lectus commodo pulvinar. Nulla sagittis risus leo, id vestibulum velit auctor vitae. Morbi velit lacus, tempus non risus eget, dictum dapibus elit."
+        "role": "Co-Founder & CEO",
+        "about": "Vincent Frattaroli is a 45-year-old senior politician who enjoys jigsaw puzzles, relaxing and travelling. He is brave and gentle, but can also be very standoffish and a bit unkind.\n\nHe is French. He has a post-graduate degree in philosophy, politics and economics. He has a severe phobia of flying"
     },
     {
         "id": 1,
         "firstname": "Gilles",
         "lastname": "Grousset",
-        "role": "CTO",
+        "role": "Co-Founder & CTO",
         "twitter": "zippy1978",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non eros sed mi laoreet tristique nec eget nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi in ante finibus, pellentesque lacus vitae, facilisis mi. Etiam urna eros, commodo vitae augue id, posuere scelerisque mauris. Vivamus mattis imperdiet tincidunt. Vivamus fermentum mauris vel ipsum porta bibendum. Aenean sed malesuada justo. Vestibulum ante nunc, suscipit id consectetur vel, interdum et turpis. Praesent id varius risus, at euismod massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eget condimentum enim. Nunc ac lacus sit amet dolor auctor viverra eu vel tellus. Suspendisse fringilla a ipsum sed faucibus. Nam auctor lacus quis lectus commodo pulvinar. Nulla sagittis risus leo, id vestibulum velit auctor vitae. Morbi velit lacus, tempus non risus eget, dictum dapibus elit."
+        "about": "Gilles Grousset is a 42-year-old government politician who enjoys watching sport, bowling and relaxing. He is brave and gentle, but can also be very standoffish and a bit unkind.\n\nHe is French. He has a post-graduate degree in philosophy, politics and economics. He is allergic to wasps. He is obsessed with Star Wars."
     },
     {
         "id": 2,
         "firstname": "David",
         "lastname": "Yang",
-        "role": "iOS Developer",
+        "role": "iOS Developer / Marvel Fan",
         "twitter": "davidy4ng",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non eros sed mi laoreet tristique nec eget nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi in ante finibus, pellentesque lacus vitae, facilisis mi. Etiam urna eros, commodo vitae augue id, posuere scelerisque mauris. Vivamus mattis imperdiet tincidunt. Vivamus fermentum mauris vel ipsum porta bibendum. Aenean sed malesuada justo. Vestibulum ante nunc, suscipit id consectetur vel, interdum et turpis. Praesent id varius risus, at euismod massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eget condimentum enim. Nunc ac lacus sit amet dolor auctor viverra eu vel tellus. Suspendisse fringilla a ipsum sed faucibus. Nam auctor lacus quis lectus commodo pulvinar. Nulla sagittis risus leo, id vestibulum velit auctor vitae. Morbi velit lacus, tempus non risus eget, dictum dapibus elit."
+        "about": "David Yang Thomas is a 32-year-old senior politician who enjoys football, bowling and painting. He is bright and stable, but can also be very pessimistic and a bit impatient.\n\nHe is a Hmong Jedi. He has a post-graduate degree in philosophy, politics and economics. He is allergic to milk.\n\nPhysically, David is in pretty good shape. He is average-height with pale skin, white hair and black eyes."
     },
     {
         "id": 3,
         "firstname": "Mickaël",
         "lastname": "Laloum",
-        "role": "iOS Developer",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non eros sed mi laoreet tristique nec eget nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi in ante finibus, pellentesque lacus vitae, facilisis mi. Etiam urna eros, commodo vitae augue id, posuere scelerisque mauris. Vivamus mattis imperdiet tincidunt. Vivamus fermentum mauris vel ipsum porta bibendum. Aenean sed malesuada justo. Vestibulum ante nunc, suscipit id consectetur vel, interdum et turpis. Praesent id varius risus, at euismod massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eget condimentum enim. Nunc ac lacus sit amet dolor auctor viverra eu vel tellus. Suspendisse fringilla a ipsum sed faucibus. Nam auctor lacus quis lectus commodo pulvinar. Nulla sagittis risus leo, id vestibulum velit auctor vitae. Morbi velit lacus, tempus non risus eget, dictum dapibus elit."
+        "role": "iOS Developer / React Native Enthusiast",
+        "about": "Mickaël Laloum Patel is a 32-year-old kitchen assistant who enjoys painting, swimming and watching television. He is exciting and creative, but can also be very rude and a bit untidy.\n\nHe is a French Jedi. He has a post-graduate degree in food science."
     },
     {
         "id": 4,
         "firstname": "Jérôme",
         "lastname": "Morrissard",
-        "role": "iOS Developer",
+        "role": "iOS Developer / Author of JMO libraries",
         "twitter": "leverdeterre",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non eros sed mi laoreet tristique nec eget nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi in ante finibus, pellentesque lacus vitae, facilisis mi. Etiam urna eros, commodo vitae augue id, posuere scelerisque mauris. Vivamus mattis imperdiet tincidunt. Vivamus fermentum mauris vel ipsum porta bibendum. Aenean sed malesuada justo. Vestibulum ante nunc, suscipit id consectetur vel, interdum et turpis. Praesent id varius risus, at euismod massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eget condimentum enim. Nunc ac lacus sit amet dolor auctor viverra eu vel tellus. Suspendisse fringilla a ipsum sed faucibus. Nam auctor lacus quis lectus commodo pulvinar. Nulla sagittis risus leo, id vestibulum velit auctor vitae. Morbi velit lacus, tempus non risus eget, dictum dapibus elit."
+        "about": "Jerôme Morissard Thomas is a 35-year-old CEO who enjoys recycling, attending museums and meditation. He is stable and giving, but can also be very pessimistic and a bit untidy.\n\nHe is a French Christian. He has a post-graduate degree in business studies. He has a severe phobia of mice, and is obsessed with creating playlists."
     },
     {
         "id": 5,
         "firstname": "Gaël",
         "lastname": "Foppolo",
-        "role": "iOS Developer",
+        "role": "iOS Developer / Security Expert",
         "twitter": "gaelugio",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non eros sed mi laoreet tristique nec eget nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi in ante finibus, pellentesque lacus vitae, facilisis mi. Etiam urna eros, commodo vitae augue id, posuere scelerisque mauris. Vivamus mattis imperdiet tincidunt. Vivamus fermentum mauris vel ipsum porta bibendum. Aenean sed malesuada justo. Vestibulum ante nunc, suscipit id consectetur vel, interdum et turpis. Praesent id varius risus, at euismod massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eget condimentum enim. Nunc ac lacus sit amet dolor auctor viverra eu vel tellus. Suspendisse fringilla a ipsum sed faucibus. Nam auctor lacus quis lectus commodo pulvinar. Nulla sagittis risus leo, id vestibulum velit auctor vitae. Morbi velit lacus, tempus non risus eget, dictum dapibus elit."
+        "about": "Gaël Foppolo Miller is a 16-year-old teenager who enjoys travelling, binge-watching boxed sets and tennis. He is considerate and smart, but can also be very cowardly and a bit moody.\n\nHe is Italian. He is currently at school.\n\nPhysically, Gaël is in pretty good shape. He is average-height with pale skin, red hair and blue eyes.\n\nHe lives in a working class neighbourhood. His father walked out 13 years ago, leaving his mother, an electrician Dante, to look after him."
     },
 ]

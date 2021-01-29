@@ -13,8 +13,25 @@ struct PeopleApp: App {
 
     var body: some Scene {
         WindowGroup {
-            PeopleListView(peoples: People.all, selectedPeopleId: nil)
-                .environmentObject(model)
+            TabView {
+                PeopleListView(peoples: People.all, selectedPeopleId: nil)
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "person.3")
+                            Text("Meet us")
+                        }
+                    }
+                AboutView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "questionmark.circle")
+                            Text("About")
+                        }
+                    }
+            }
+            .tabViewStyle(DefaultTabViewStyle())
+            .accentColor(.red)
+            .environmentObject(model)
         }
     }
 }
